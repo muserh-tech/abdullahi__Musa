@@ -1,0 +1,12 @@
+
+fun sum(a: Int, b: Int): Int {    return a + b}
+
+fun main() {
+    val num1 = 5
+    val num2 = 3
+    println("Sum of $num1 and $num2 is: ${sum(num1, num2)}")
+
+    val num3 = 10
+    val num4 = 20
+    println("Sum of $num3 and $num4 is: ${sum(num3, num4)}")
+}
