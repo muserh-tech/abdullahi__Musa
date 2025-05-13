@@ -1,0 +1,4 @@
+fun main(){
+    val myNAme = "Musa Abdullahi Musa"
+    println("Hello, ${myNAme} , Your are Welcome to Kotlin")
+}
