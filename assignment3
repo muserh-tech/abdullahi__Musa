@@ -1,0 +1,14 @@
+fun main(){
+    println("Enter the Integer ")
+    val num= readLine()?.toInt()
+
+    if (num!=null){
+        if (num %2==0){
+            println("$num is an Even number")
+        }else{
+            println("$num is an Odd number")
+        }
+    }else{
+        print("Invalid NUmber")
+    }
+}
